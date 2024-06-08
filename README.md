@@ -1,7 +1,9 @@
 # @dylanbulmer/r2-client
 
 ![npm version](https://img.shields.io/npm/v/@dylanbulmer/r2-client)
-[![CodeQL](https://github.com/DylanBulmer/r2-client/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/DylanBulmer/r2-client/actions/workflows/codeql.yml)
+[![CodeQL](https://github.com/DylanBulmer/r2-client/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/DylanBulmer/r2-client/actions/workflows/github-code-scanning/codeql)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-30363D?style=flat&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/DylanBulmer)
+<a href="https://www.buymeacoffee.com/DylanBulmer"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="20px"></a>
 
 ## Purpose
 
