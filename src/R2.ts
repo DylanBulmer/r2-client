@@ -1,4 +1,5 @@
 import {
+  CopyObjectCommand,
   GetObjectCommand,
   ListBucketsCommand,
   ListObjectsV2Command,
@@ -38,10 +39,21 @@ export default class R2Client {
       new GetObjectCommand({ Bucket: bucket, Key: key }),
     );
   }
+
   public async putObject(bucket: string, key: string) {
     return await client.send(
       new PutObjectCommand({
         Bucket: bucket,
+        Key: key,
+      }),
+    );
+  }
+
+  public async copyObject(bucket: string, sourceKey: string, key: string) {
+    return await client.send(
+      new CopyObjectCommand({
+        Bucket: bucket,
+        CopySource: sourceKey,
         Key: key,
       }),
     );
